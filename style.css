@@ -1,0 +1,714 @@
+@media screen and (min-width:900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(62, 62, 62);
+    }
+
+    .cont {
+        background-image: url(bpic.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 95vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .film {
+        background-color: black;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        opacity: 0.6;
+    }
+
+    .nav {
+        padding: 0;
+        height: 83px;
+        width: 77vw;
+        position: absolute;
+        top: 0px;
+        margin: 0px 11.5vw 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 149px;
+    }
+
+    .nav1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 22px;
+        position: relative;
+        top: 0;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    option {
+        text-align: center;
+    }
+
+    .langlogo {
+        position: absolute;
+        left: 7px;
+    }
+
+    .lang {
+        font-family: "Ubuntu", sans-serif;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border: 0.1px solid rgb(255, 255, 255);
+        height: 32px;
+        width: 130px;
+        background-color: rgb(38, 38, 38);
+        color: whitesmoke;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .sign {
+        font-family: "Ubuntu", sans-serif;
+        border: none;
+        height: 32px;
+        width: 80px;
+        background-color: rgb(235, 3, 3);
+        color: whitesmoke;
+        border-radius: 5px;
+        font-size: medium;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .txt {
+        margin: 5vw;
+        padding: 0px;
+        font-family: "Ubuntu", sans-serif;
+        width: 90vw;
+        height: 80%;
+        color: aliceblue;
+        position: absolute;
+        bottom: -70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 27px;
+    }
+
+    .t1 {
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .t2 {
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .t3 {
+        font-size: 20.9px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .search {
+        height: 54px;
+        width: 367px;
+        color: rgb(255, 255, 255);
+        background: none;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .input {
+        font-family: "Ubuntu", sans-serif;
+        border: 1px solid rgb(184, 182, 182);
+        border-radius: 5px;
+        color: gray;
+
+    }
+
+    .s {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .lab {
+        left: 10px;
+    }
+
+    .s>button {
+        height: 54px;
+        width: 209px;
+        font-size: x-large;
+        font-weight: bolder;
+        border: none;
+        border-radius: 4px;
+        background-color: red;
+        color: aliceblue;
+    }
+
+    .t4 {
+        font-size: 27px;
+        font-weight: 400;
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    .cont4,
+    .cont2,
+    .cont3,
+    .cont4,
+    .cont5
+    {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        height: 36vw;
+        width: 100%;
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .p1 {
+        height: 70%;
+        width: 39%;
+        color: aliceblue;
+        font-family: "Ubuntu", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .cont4 .p2 {
+        width: 35%;
+        position: relative;
+    }
+
+    .cont4 .mac {
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cont4 .vid {
+        position: absolute;
+        top: 12%;
+        left: 19.6%;
+        z-index: 0;
+        height: 44%;
+    }
+
+    .cont2 .p2 {
+        width: 38%;
+        position: relative;
+    }
+
+    .cont2 .tv {
+        width: 100%;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cont2 .vid {
+        position: absolute;
+        top: 19%;
+        left: 13%;
+        width: 76%;
+    }
+
+    .cont3 .p2 {
+        width: 38%;
+        position: relative;
+    }
+
+    .phone {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        scale: 1;
+        position: relative;
+        left: 40px;
+    }
+
+    .cont3 .p1 p {
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .subposter {
+        background-color: black;
+        border: 1px solid gray;
+        border-radius: 10px;
+        height: 110px;
+        width: 20vw;
+        position: absolute;
+        bottom: 8%;
+        left: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    .poster {
+        height: 90%;
+        position: relative;
+        left: 13px;
+        border-radius: 3px;
+    }
+
+    .subtxt {
+        position: relative;
+        right: -9%;
+        width: 60%;
+    }
+
+    .subtxt>p:first-child {
+        color: aliceblue;
+        font-size: 130%;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .subtxt>p:nth-child(2) {
+        color: rgb(19, 19, 237);
+        font-size: 105%;
+        font-family: sans-serif;
+    }
+    
+    .cont5 .p2 {
+        width: 35%;
+        position: relative;
+    }
+
+    .cont5 .child {
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cont5 .p1 
+    {
+        height: 50%;
+        width: 42%;
+        color: aliceblue;
+        font-family: "Ubuntu", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .cont6
+    {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        height: 68vw;
+        width: 100%;
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sd{
+        background-color: gray;
+        width: 80%;
+        height: 5vw;
+    }
+}
+
+@media screen and (max-width:900px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(62, 62, 62);
+    }
+
+    .cont {
+        background-image: url(bpic.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        position: relative;
+    }
+
+    .film {
+        background-color: black;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        opacity: 0.6;
+    }
+
+    .nav {
+        padding: 0;
+        height: 83px;
+        width: 77vw;
+        position: absolute;
+        top: 0px;
+        margin: 0px 11.5vw 0px 11.5vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 98px;
+    }
+
+    .nav2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0px;
+        gap: 8px;
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    option {
+        text-align: center;
+    }
+
+    .langlogo {
+        position: absolute;
+        left: 7px;
+    }
+
+    .lang {
+        margin: 0;
+        padding: 0;
+        border: none;
+        border: 0.1px solid gray;
+        height: 32px;
+        width: 60px;
+        background-color: rgb(38, 38, 38);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+    .sign {
+        font-family: "Ubuntu", sans-serif;
+        border: none;
+        height: 32px;
+        width: 80px;
+        background-color: rgb(235, 3, 3);
+        color: whitesmoke;
+        border-radius: 5px;
+        font-size: medium;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .txt {
+        margin: 0px 10vw;
+        padding: 0px;
+        font-family: "Ubuntu", sans-serif;
+        width: 80vw;
+        height: 80%;
+        color: aliceblue;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .t1 {
+        font-size: 32px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .t2 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .t3 {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .search {
+        height: 54px;
+        width: 75vw;
+        color: rgb(255, 255, 255);
+        background: none;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .input {
+        font-family: "Ubuntu", sans-serif;
+        border: 1px solid rgb(184, 182, 182);
+        border-radius: 5px;
+        color: gray;
+
+    }
+
+    .s {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .lab {
+        left: 10px;
+    }
+
+    .s>button {
+        height: 44px;
+        width: 160px;
+        font-size: large;
+        font-weight: bolder;
+        border: none;
+        border-radius: 4px;
+        background-color: red;
+        color: aliceblue;
+    }
+
+    .t4 {
+        font-size: 2.5vw;
+        font-weight: 400;
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    .cont4,
+    .cont2
+    {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        height: 68vw;
+        width: 100%;
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont3,
+    .cont5
+    {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        height: 68vw;
+        width: 100%;
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .p1
+    {
+        height: 40%;
+        width: 100%;
+        color: aliceblue;
+        font-family: "Ubuntu", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .p1 .t1{
+        font-size: 4.2vw;
+        font-weight: bolder;
+        text-align: center;
+        width: 50%;
+    }
+
+
+    .cont4 .p2 {
+        width: 60%;
+        position: relative;
+    }
+
+    .cont4 .mac {
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cont4 .vid {
+        position: absolute;
+        top: 12%;
+        left: 19.6%;
+        z-index: 0;
+        height: 44%;
+    }
+
+    .cont2 .p2 {
+        width: 60%;
+        position: relative;
+    }
+
+    .cont2 .tv {
+        width: 100%;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cont2 .vid {
+        position: absolute;
+        top: 19%;
+        left: 13%;
+        width: 76%;
+    }
+
+    .cont3 .p2 {
+        width: 60%;
+        position: relative;
+    }
+
+    .phone {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .subposter {
+        background-color: black;
+        border: 1px solid gray;
+        border-radius: 8px;
+        height: 22%;
+        width: 36vw;
+        position: absolute;
+        bottom: 8%;
+        left: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .poster {
+        height: 90%;
+        position: relative;
+        left: 2%;
+        border-radius: 3px;
+    }
+
+    .subtxt {
+        position: relative;
+        right: -9%;
+        width: 60%;
+    }
+
+    .subtxt>p:first-child {
+        color: aliceblue;
+        font-size: 2.2vw;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .subtxt>p:nth-child(2) {
+        color: rgb(19, 19, 237);
+        font-size: 1.5vw;
+        font-family: sans-serif;
+    }
+    
+    .cont5 .p2 {
+        width: 60%;
+        position: relative;
+    }
+
+    .cont5 .child {
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        position: relative;
+        z-index: 1;
+    }
+
+    .cont5 .p1 
+    {
+        height: 50%;
+        width: 95%;
+        color: aliceblue;
+        font-family: "Ubuntu", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cont6
+    {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        height: 68vw;
+        width: 100%;
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sd{
+        background-color: gray;
+        width: 80%;
+        height: 5vw;
+    }
+}
